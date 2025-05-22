@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="StreamingTestSuite">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="API Tests">
+        <classes>
+            <class name="streaming.tests.APITest"/>
+        </classes>
+    </test>
+
+    <test name="Multi-Device Tests">
+        <classes>
+            <class name="streaming.tests.MultiDeviceTest"/>
+        </classes>
+    </test>
+
+    <test name="Live Stream Tests">
+        <classes>
+            <class name="streaming.tests.LiveStreamTest"/>
+        </classes>
+    </test>
+</suite>
